@@ -20,7 +20,6 @@ gns3
 cd P1
 docker build -t host_rbourgea -f _rbourgea-1_host .
 docker build -t routeur_rbourgea -f _rbourgea-2 .
-unzip P1.gns3project
 ```
 
-Right-click on P1.gns3 and open it !
+Go to gns3 `File > Import portable project` and select `P1.gns3project`
