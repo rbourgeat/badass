@@ -22,4 +22,14 @@ docker build -t host_rbourgea -f _rbourgea-1_host .
 docker build -t routeur_rbourgea -f _rbourgea-2 .
 ```
 
-Go to gns3 `File > Import portable project` and select `P1.gns3project`
+Go to gns3 `Edit > Preference > Docker > Docker containers`.
+
+Click `New` and create 2 Docker templates with `host_rbourgea:latest` and `routeur_rbourgea:latest` images.
+
+> Info: set more than 1 adapter for the docker templates `routeur_rbourgea``.
+
+Go to gns3 `File > Import portable project` and select `P1.gns3project`.
+
+## Part 2
+
+Go to gns3 `File > Import portable project` and select `P1.gns3project`.
