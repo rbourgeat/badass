@@ -1,3 +1,5 @@
 FROM frrouting/frr
-ENV DAEMONS="zebra bgpd ospfd isisd --disable-staticd"
+
+ENV DAEMONS="zebra bgpd ospfd isisd"
+
 COPY ./_rbourgea-2.daemons.conf /etc/frr/daemons
