@@ -35,3 +35,7 @@ Go to gns3 `File > Import portable project` and select `P1.gns3project`.
 Go to gns3 `File > Import portable project` and select `P2.gns3project`.
 
 > Info: `brctl showmacs br0` use `/usr/sbin/brctl showmacs br0` instead.
+
+## Part 3
+
+Go to gns3 `File > Import portable project` and select `P3.gns3project`.
